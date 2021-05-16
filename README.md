@@ -1,6 +1,6 @@
 # Spring手撸专栏
 
-> **作者：** 小傅哥，Java Developer，[:pencil2: 虫洞 · 科技栈，作者](https://bugstack.cn)，[:trophy: CSDN 博客专家](https://bugstack.blog.csdn.net)，[:blue_book: 《重学Java设计模式》图书作者](https://u.jd.com/qPnzanP)
+> **作者：** 小傅哥，Java Developer，[:pencil2: 虫洞 · 科技栈，作者](https://bugstack.cn)，[:blue_book: 《重学Java设计模式》图书作者](https://u.jd.com/qPnzanP)
 
 <br/>
 <div align="center">
