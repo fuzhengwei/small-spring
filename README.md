@@ -17,7 +17,7 @@
 
 <br/>
 <div align="center">
-    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://github.com/fuzhengwei/small-spring/blob/main/docs/_media/bugstack-pdf.png?raw=true" width="128px"></a>
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://github.com/fuzhengwei/small-spring/blob/main/docs/_media/pdf.png?raw=true" width="128px"></a>
 </div>
 <br/>  
 
