@@ -19,7 +19,6 @@
 <div align="center">
     <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://github.com/fuzhengwei/small-spring/blob/main/docs/_media/pdf.png?raw=true" width="512px"></a>
 </div>
-<br/>  
 
 ---
 
