@@ -15,6 +15,12 @@
 <a href="https://bugstack.cn/assets/images/qrcode.png?x-oss-process=style/may"><img src="https://itedus.cn/_media/wxbugstack.svg"></a>
 </div>
 
+<br/>
+<div align="center">
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://github.com/fuzhengwei/small-spring/blob/main/docs/_media/bugstack-pdf.png?raw=true" width="128px"></a>
+</div>
+<br/>  
+
 ---
 
 本仓库以 Spring 源码学习为目的，通过手写简化版 Spring 框架，了解 Spring 核心原理。
