@@ -31,16 +31,16 @@
 ## 目录
 
 - [x] 第 1 章：[开篇介绍，我要带你撸 Spring 啦！](https://bugstack.cn/spring/2021/05/16/%E7%AC%AC1%E7%AB%A0-%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D-%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88.html)
-- [x] 第 2 章：小试牛刀，实现一个简单的Bean容器
-- [x] 第 3 章：Spring Bean 的定义和注册
-- [x] 第 4 章：Spring Bean 构造函数实例化策略以及Cglib动态生成使用
-- [x] 第 5 章：给 Bean 对象填充属性信息
+- [x] 第 2 章：[小试牛刀，实现一个简单的Bean容器](https://bugstack.cn/spring/2021/05/20/%E7%AC%AC2%E7%AB%A0-%E5%B0%8F%E8%AF%95%E7%89%9B%E5%88%80-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Bean%E5%AE%B9%E5%99%A8.html)
+- [ ] 第 3 章：Spring Bean 的定义和注册
+- [ ] 第 4 章：Spring Bean 构造函数实例化策略以及Cglib动态生成使用
+- [ ] 第 5 章：给 Bean 对象填充属性信息
 - [ ] 第 6 章：待归档...
 
 | 序号 | 章节                                     | GitHub                                                       | Gitee                                                        |
 | :--: | --------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |  1   | [开篇介绍，我要带你撸 Spring 啦！](https://bugstack.cn/spring/2021/05/16/%E7%AC%AC1%E7%AB%A0-%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D-%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88.html) | [small-spring](https://github.com/fuzhengwei/small-spring) | [small-spring](https://gitee.com/fustack/small-spring) |
-|  2   | 小试牛刀，实现一个简单的Bean容器               | [small-spring-step-01](https://github.com/small-spring/small-spring-step-01) | [small-spring-step-01](https://gitee.com/small-spring/small-spring-step-01) |
+|  2   | [小试牛刀，实现一个简单的Bean容器](https://bugstack.cn/spring/2021/05/20/%E7%AC%AC2%E7%AB%A0-%E5%B0%8F%E8%AF%95%E7%89%9B%E5%88%80-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Bean%E5%AE%B9%E5%99%A8.html)    | [small-spring-step-01](https://github.com/small-spring/small-spring-step-01) | [small-spring-step-01](https://gitee.com/small-spring/small-spring-step-01) |
 |  3   | Spring Bean 的定义和注册 | [small-spring-step-02](https://github.com/small-spring/small-spring-step-02) | [small-spring-step-02](https://gitee.com/small-spring/small-spring-step-02) |
 |  4   | Spring Bean 构造函数实例化策略以及Cglib动态生成使用 | [small-spring-step-03](https://github.com/small-spring/small-spring-step-03) | [small-spring-step-03](https://gitee.com/small-spring/small-spring-step-03) |
 |  5   | 给 Bean 对象填充属性信息          | [small-spring-step-04](https://github.com/small-spring/small-spring-step-04) | [small-spring-step-04](https://gitee.com/small-spring/small-spring-step-04) |
