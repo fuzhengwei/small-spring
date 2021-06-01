@@ -46,7 +46,6 @@
 |  5   | 给 Bean 对象填充属性信息          | [small-spring-step-04](https://github.com/small-spring/small-spring-step-04) | [small-spring-step-04](https://gitee.com/small-spring/small-spring-step-04) |
 |  6   | 待归档...                     | - | - |
 
-
 ## 参考
 
 在资料整理的过程中，发现了两个非常优秀的手写Spring框架源码，tiny-spring、mini-spring，这两个简化版的Spring框架都实现了一个非常易懂、易学、易上手的源码教程，如果你已经有了一定的基础，那么可以直接阅读源码学习。地址：
