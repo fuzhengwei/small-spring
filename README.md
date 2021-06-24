@@ -28,7 +28,7 @@
 
 [`小傅哥`](https://bugstack.cn/)，之所以开始撸Spring源码，主要就是因为在编写[《面经手册》](https://bugstack.cn/itstack/interview.html)时，涉及到的Spring源码都会写很多的文字描述、绘制冗长的流程图稿、做不少的内容铺垫，但对于新人来说想直接学习这部分内容仍是非常困难的，那么现在为了让我以及更多的伙伴能有一个学习的`抓手`，我们来一起研究研究什么是快乐星球！
 
-## 目录
+## 目录&源码
 
 - [x] 第 1 章：[开篇介绍，我要带你撸 Spring 啦！](https://bugstack.cn/spring/2021/05/16/%E7%AC%AC1%E7%AB%A0-%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D-%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88.html)
 - [x] 第 2 章：[小试牛刀，实现一个简单的Bean容器](https://bugstack.cn/spring/2021/05/20/%E7%AC%AC2%E7%AB%A0-%E5%B0%8F%E8%AF%95%E7%89%9B%E5%88%80-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Bean%E5%AE%B9%E5%99%A8.html)
@@ -37,7 +37,8 @@
 - [x] 第 5 章：[一鸣惊人，为Bean对象注入属性和依赖Bean的功能实现](https://bugstack.cn/spring/2021/06/02/%E7%AC%AC5%E7%AB%A0-%E4%B8%80%E9%B8%A3%E6%83%8A%E4%BA%BA-%E4%B8%BABean%E5%AF%B9%E8%B1%A1%E6%B3%A8%E5%85%A5%E5%B1%9E%E6%80%A7%E5%92%8C%E4%BE%9D%E8%B5%96Bean%E7%9A%84%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0.html)
 - [x] 第 6 章：[气吞山河，设计与实现资源加载器，从Spring.xml解析和注册Bean对象](https://bugstack.cn/spring/2021/06/09/%E7%AC%AC6%E7%AB%A0-%E6%B0%94%E5%90%9E%E5%B1%B1%E6%B2%B3-%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD%E5%99%A8-%E4%BB%8ESpring.xml%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8CBean%E5%AF%B9%E8%B1%A1.html)
 - [x] 第 7 章：[所向披靡，实现应用上下文，自动识别、资源加载、扩展机制](https://bugstack.cn/spring/2021/06/17/%E7%AC%AC7%E7%AB%A0-%E6%89%80%E5%90%91%E6%8A%AB%E9%9D%A1-%E5%AE%9E%E7%8E%B0%E5%BA%94%E7%94%A8%E4%B8%8A%E4%B8%8B%E6%96%87-%E8%87%AA%E5%8A%A8%E8%AF%86%E5%88%AB-%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD-%E6%89%A9%E5%B1%95%E6%9C%BA%E5%88%B6.html)
-- [ ] 第 8 章：待归档...
+- [x] 第 8 章：[龙行有风，向虚拟机注册钩子，实现Bean对象的初始化和销毁方法](https://bugstack.cn/spring/2021/06/23/%E7%AC%AC8%E7%AB%A0-%E9%BE%99%E8%A1%8C%E6%9C%89%E9%A3%8E-%E5%90%91%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B3%A8%E5%86%8C%E9%92%A9%E5%AD%90-%E5%AE%9E%E7%8E%B0Bean%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E5%92%8C%E9%94%80%E6%AF%81%E6%96%B9%E6%B3%95.html)
+- [ ] 第 9 章：待归档...
 
 | 序号 | 章节                                     | GitHub                                                       | Gitee                                                        |
 | :--: | --------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -48,7 +49,8 @@
 |  5   | [为Bean对象注入属性和依赖Bean的功能实现](https://bugstack.cn/spring/2021/06/02/%E7%AC%AC5%E7%AB%A0-%E4%B8%80%E9%B8%A3%E6%83%8A%E4%BA%BA-%E4%B8%BABean%E5%AF%B9%E8%B1%A1%E6%B3%A8%E5%85%A5%E5%B1%9E%E6%80%A7%E5%92%8C%E4%BE%9D%E8%B5%96Bean%E7%9A%84%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0.html)          | [small-spring-step-04](https://github.com/small-spring/small-spring-step-04) | [small-spring-step-04](https://gitee.com/small-spring/small-spring-step-04) |
 |  6   | [设计与实现资源加载器，从Spring.xml解析和注册Bean对象](https://bugstack.cn/spring/2021/06/09/%E7%AC%AC6%E7%AB%A0-%E6%B0%94%E5%90%9E%E5%B1%B1%E6%B2%B3-%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD%E5%99%A8-%E4%BB%8ESpring.xml%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8CBean%E5%AF%B9%E8%B1%A1.html)          | [small-spring-step-05](https://github.com/small-spring/small-spring-step-05) | [small-spring-step-05](https://gitee.com/small-spring/small-spring-step-05) |
 |  7   | [所向披靡，实现应用上下文，自动识别、资源加载、扩展机制](https://bugstack.cn/spring/2021/06/17/%E7%AC%AC7%E7%AB%A0-%E6%89%80%E5%90%91%E6%8A%AB%E9%9D%A1-%E5%AE%9E%E7%8E%B0%E5%BA%94%E7%94%A8%E4%B8%8A%E4%B8%8B%E6%96%87-%E8%87%AA%E5%8A%A8%E8%AF%86%E5%88%AB-%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD-%E6%89%A9%E5%B1%95%E6%9C%BA%E5%88%B6.html)          | [small-spring-step-06](https://github.com/small-spring/small-spring-step-06) | [small-spring-step-06](https://gitee.com/small-spring/small-spring-step-06) |
-|  8   | 待归档...                     | - | - |
+|  8   | [龙行有风，向虚拟机注册钩子，实现Bean对象的初始化和销毁方法](https://bugstack.cn/spring/2021/06/23/%E7%AC%AC8%E7%AB%A0-%E9%BE%99%E8%A1%8C%E6%9C%89%E9%A3%8E-%E5%90%91%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B3%A8%E5%86%8C%E9%92%A9%E5%AD%90-%E5%AE%9E%E7%8E%B0Bean%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E5%92%8C%E9%94%80%E6%AF%81%E6%96%B9%E6%B3%95.html)  | [small-spring-step-07](https://github.com/small-spring/small-spring-step-07) | [small-spring-step-07](https://gitee.com/small-spring/small-spring-step-07) |
+|  9   | 待归档...                     | - | - |
 
 ## 参考
 
