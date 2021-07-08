@@ -40,7 +40,8 @@
 - [x] 第 08 章：[龙行有风，向虚拟机注册钩子，实现Bean对象的初始化和销毁方法](https://bugstack.cn/spring/2021/06/23/%E7%AC%AC8%E7%AB%A0-%E9%BE%99%E8%A1%8C%E6%9C%89%E9%A3%8E-%E5%90%91%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B3%A8%E5%86%8C%E9%92%A9%E5%AD%90-%E5%AE%9E%E7%8E%B0Bean%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E5%92%8C%E9%94%80%E6%AF%81%E6%96%B9%E6%B3%95.html)
 - [x] 第 09 章：[虎行有雨，定义标记类型Aware接口，实现感知容器对象](https://bugstack.cn/spring/2021/06/23/%E7%AC%AC8%E7%AB%A0-%E9%BE%99%E8%A1%8C%E6%9C%89%E9%A3%8E-%E5%90%91%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B3%A8%E5%86%8C%E9%92%A9%E5%AD%90-%E5%AE%9E%E7%8E%B0Bean%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E5%92%8C%E9%94%80%E6%AF%81%E6%96%B9%E6%B3%95.html)
 - [x] 第 10 章：[横刀跃马，关于Bean对象作用域以及FactoryBean的实现和使用](https://bugstack.cn/spring/2021/06/30/%E7%AC%AC10%E7%AB%A0-%E6%A8%AA%E5%88%80%E8%B7%83%E9%A9%AC-%E5%85%B3%E4%BA%8EBean%E5%AF%B9%E8%B1%A1%E4%BD%9C%E7%94%A8%E5%9F%9F%E4%BB%A5%E5%8F%8AFactoryBean%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%92%8C%E4%BD%BF%E7%94%A8.html)
-- [ ] 第 11 章：待归档...
+- [x] 第 11 章：[更上层楼，基于观察者实现，容器事件和事件监听器](https://bugstack.cn/spring/2021/07/07/%E7%AC%AC11%E7%AB%A0-%E6%9B%B4%E4%B8%8A%E5%B1%82%E6%A5%BC-%E5%9F%BA%E4%BA%8E%E8%A7%82%E5%AF%9F%E8%80%85%E5%AE%9E%E7%8E%B0-%E5%AE%B9%E5%99%A8%E4%BA%8B%E4%BB%B6%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%9B%91%E5%90%AC%E5%99%A8.html)
+- [ ] 第 12 章：待归档...
 
 | 序号 | 章节                                     | GitHub                                                       | Gitee                                                        |
 | :--: | --------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -54,7 +55,8 @@
 |  08   | [龙行有风，向虚拟机注册钩子，实现Bean对象的初始化和销毁方法](https://bugstack.cn/spring/2021/06/23/%E7%AC%AC8%E7%AB%A0-%E9%BE%99%E8%A1%8C%E6%9C%89%E9%A3%8E-%E5%90%91%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B3%A8%E5%86%8C%E9%92%A9%E5%AD%90-%E5%AE%9E%E7%8E%B0Bean%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E5%92%8C%E9%94%80%E6%AF%81%E6%96%B9%E6%B3%95.html)  | [small-spring-step-07](https://github.com/small-spring/small-spring-step-07) | [small-spring-step-07](https://gitee.com/small-spring/small-spring-step-07) |
 |  09   | [虎行有雨，定义标记类型Aware接口，实现感知容器对象](https://bugstack.cn/spring/2021/06/23/%E7%AC%AC8%E7%AB%A0-%E9%BE%99%E8%A1%8C%E6%9C%89%E9%A3%8E-%E5%90%91%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B3%A8%E5%86%8C%E9%92%A9%E5%AD%90-%E5%AE%9E%E7%8E%B0Bean%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E5%92%8C%E9%94%80%E6%AF%81%E6%96%B9%E6%B3%95.html) | [small-spring-step-08](https://github.com/small-spring/small-spring-step-08) | [small-spring-step-08](https://gitee.com/small-spring/small-spring-step-08) |
 |  10   | [横刀跃马，关于Bean对象作用域以及FactoryBean的实现和使用](https://bugstack.cn/spring/2021/06/30/%E7%AC%AC10%E7%AB%A0-%E6%A8%AA%E5%88%80%E8%B7%83%E9%A9%AC-%E5%85%B3%E4%BA%8EBean%E5%AF%B9%E8%B1%A1%E4%BD%9C%E7%94%A8%E5%9F%9F%E4%BB%A5%E5%8F%8AFactoryBean%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%92%8C%E4%BD%BF%E7%94%A8.html) | [small-spring-step-09](https://github.com/small-spring/small-spring-step-09) | [small-spring-step-09](https://gitee.com/small-spring/small-spring-step-09) |
-|  11   | 待归档...                     | - | - |
+|  11   | [更上层楼，基于观察者实现，容器事件和事件监听器](https://bugstack.cn/spring/2021/07/07/%E7%AC%AC11%E7%AB%A0-%E6%9B%B4%E4%B8%8A%E5%B1%82%E6%A5%BC-%E5%9F%BA%E4%BA%8E%E8%A7%82%E5%AF%9F%E8%80%85%E5%AE%9E%E7%8E%B0-%E5%AE%B9%E5%99%A8%E4%BA%8B%E4%BB%B6%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%9B%91%E5%90%AC%E5%99%A8.html) | [small-spring-step-10](https://github.com/small-spring/small-spring-step-10) | [small-spring-step-10](https://gitee.com/small-spring/small-spring-step-10) |
+|  12   | 待归档...                     | - | - |
 
 ## 参考
 
