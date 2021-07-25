@@ -25,3 +25,4 @@ hs_err_pid*
 *.md
 /src/small-spring-step-01/.idea/
 /.idea/
+/small-spring-step-01/small-spring-step-01.iml
