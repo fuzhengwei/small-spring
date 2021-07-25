@@ -1,6 +1,6 @@
-# :seedling: Spring 手撸专栏 - 教会你能写、会看、可懂 Spring 核心源码设计
+# :seedling: Spring 手撸专栏 - 能写、会看、可懂！
 
-> **作者：** 小傅哥，Java Developer，[:pencil2: 虫洞 · 科技栈，博主](https://bugstack.cn)，[:blue_book: 《重学Java设计模式》图书作者](https://u.jd.com/qPnzanP)
+> **作者：** 小傅哥，一线互联网 Java 工程师、架构师，开发过交易、营销类项目，实现过运营、活动类项目，设计过中间件，组织过系统重构，编写过技术专利。不仅从事业务系统的开发工作，也经常做一些字节码插桩类的设计和实现，对架构的设计和落地有丰富的经验。在热衷于Java语言的同时，也喜欢研究中继器、I/O板卡、C#和PHP，是一个技术活跃的折腾者。[:pencil2: 虫洞 · 科技栈，博主](https://bugstack.cn)，[:blue_book: 《重学Java设计模式》图书作者](https://u.jd.com/qPnzanP)
 
 <br/>
 <div align="center">
@@ -57,7 +57,22 @@
 
 >让人怪不好意思的，说是出书有点膨胀，毕竟这不是走出版社的流程，选题、组稿、编著、审读、加工到出版发行。但全书共计107页，11万7千字，20个章节涵盖三个字节码框架(ASM、Javassist、Byte-budy)和JavaAgent使用并附带整套案例源码！
 
-## :paw_prints: 参考资料
+
+## :paw_prints: 联系作者
+
+- **加群交流**
+
+    本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：加群。
+    
+    <img src="https://itedus.cn/_media/fustack.png?x-oss-process=style/may" width="180" height="180"/>
+
+- **公众号(bugstack虫洞栈)**
+
+    沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例、源码分析等。
+    
+    <img src="https://itedus.cn/_media/qrcode.png?x-oss-process=style/may" width="180" height="180"/>
+
+## :tulip: 参考资料
 
 在资料整理的过程中，发现了两个非常优秀的手写 Spring 框架源码，tiny-spring、mini-spring，这两个简化版的Spring框架都实现了一个非常易懂、易学、易上手的源码教程，如果你已经有了一定的基础，那么可以直接阅读源码学习。地址：
 
