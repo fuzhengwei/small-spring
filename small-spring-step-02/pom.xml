@@ -14,7 +14,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
-    <name>small-spring</name>
+    <name>small-spring-step-02</name>
     <description>
         small spring is easy study Spring！
     </description>
