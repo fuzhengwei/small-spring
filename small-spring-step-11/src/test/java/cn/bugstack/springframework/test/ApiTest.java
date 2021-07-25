@@ -61,6 +61,7 @@ public class ApiTest {
         IUserService userService = (IUserService) Proxy.newProxyInstance(Thread.currentThread().getContextClassLoader(), new Class[]{IUserService.class}, (proxy, method, args) -> "你被代理了！");
         String result = userService.queryUserInfo();
         System.out.println("测试结果：" + result);
+
     }
 
     @Test
