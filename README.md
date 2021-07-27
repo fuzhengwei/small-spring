@@ -66,7 +66,8 @@
 - [x] [`第 11 章：更上层楼，基于观察者实现，容器事件和事件监听器`](https://bugstack.cn/spring/2021/07/07/%E7%AC%AC11%E7%AB%A0-%E6%9B%B4%E4%B8%8A%E5%B1%82%E6%A5%BC-%E5%9F%BA%E4%BA%8E%E8%A7%82%E5%AF%9F%E8%80%85%E5%AE%9E%E7%8E%B0-%E5%AE%B9%E5%99%A8%E4%BA%8B%E4%BB%B6%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%9B%91%E5%90%AC%E5%99%A8.html)
 - [x] [`第 12 章：炉火纯青，基于JDK和Cglib动态代理，实现AOP核心功能`](https://bugstack.cn/spring/2021/07/13/%E7%AC%AC12%E7%AB%A0-%E7%82%89%E7%81%AB%E7%BA%AF%E9%9D%92-%E5%9F%BA%E4%BA%8EJDK%E5%92%8CCglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86-%E5%AE%9E%E7%8E%B0AOP%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD.html)
 - [x] [`第 13 章：行云流水，把AOP动态代理，融入到Bean的生命周期`](https://bugstack.cn/spring/2021/07/22/%E7%AC%AC13%E7%AB%A0-%E8%A1%8C%E4%BA%91%E6%B5%81%E6%B0%B4-%E6%8A%8AAOP%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86-%E8%9E%8D%E5%85%A5%E5%88%B0Bean%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html)
-- [ ] 第 14 章：待归档...
+- [x] [`第 14 章：笑傲江湖，通过注解配置和包自动扫描的方式完成Bean对象的注册`](https://bugstack.cn/spring/2021/07/27/%E7%AC%AC14%E7%AB%A0-%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96-%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE%E5%92%8C%E5%8C%85%E8%87%AA%E5%8A%A8%E6%89%AB%E6%8F%8F%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%8C%E6%88%90Bean%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%B3%A8%E5%86%8C.html)
+- [ ] 第 15 章：待归档...
 
 ## :books: 我的书籍
 
