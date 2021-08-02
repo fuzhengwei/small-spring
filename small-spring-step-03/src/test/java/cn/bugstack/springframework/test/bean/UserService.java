@@ -9,6 +9,9 @@ public class UserService {
 
     private String name;
 
+    public UserService() {
+    }
+    
     public UserService(String name) {
         this.name = name;
     }
