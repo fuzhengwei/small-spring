@@ -93,7 +93,7 @@
 
 <br/>
 <div align="center">
-    [关注小傅哥，你可以学到的更多！](https://github.com/fuzhengwei/CodeGuide/wiki)
+    <a href="https://github.com/fuzhengwei/CodeGuide/wiki">关注小傅哥，你可以学到的更多！</a>
 </div>
 <br/>  
 
