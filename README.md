@@ -89,6 +89,14 @@
 
 ## :paw_prints: 联系作者
 
+![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/bugstack-md.png?raw=true)
+
+<br/>
+<div align="center">
+    [关注小傅哥，你可以学到的更多！](https://github.com/fuzhengwei/CodeGuide/wiki)
+</div>
+<br/>  
+
 - **加群交流**
 
     本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：加群。
