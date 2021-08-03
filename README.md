@@ -22,7 +22,7 @@
 - [学习说明 🍁`(学习套路&源码使用)`](https://github.com/fuzhengwei/small-spring#bookmark-%E5%AD%A6%E4%B9%A0%E8%AF%B4%E6%98%8E)
 - [章节目录](https://github.com/fuzhengwei/small-spring#pencil-%E7%AB%A0%E8%8A%82%E7%9B%AE%E5%BD%95)
 - [我的书籍](https://github.com/fuzhengwei/small-spring#books-%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D)
-- [联系作者](https://github.com/fuzhengwei/small-spring#paw_prints-%E8%81%94%E7%B3%BB%E4%BD%9C%E8%80%85)
+- [问题交流](https://github.com/fuzhengwei/small-spring#paw_prints-%E9%97%AE%E9%A2%98%E4%BA%A4%E6%B5%81)
 - [参考资料](https://github.com/fuzhengwei/small-spring#tulip-%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99)
 
 ## :bookmark: 学习说明
@@ -87,11 +87,19 @@
 >让人怪不好意思的，说是出书有点膨胀，毕竟这不是走出版社的流程，选题、组稿、编著、审读、加工到出版发行。但全书共计107页，11万7千字，20个章节涵盖三个字节码框架(ASM、Javassist、Byte-budy)和JavaAgent使用并附带整套案例源码！
 
 
-## :paw_prints: 联系作者
+## :paw_prints: 问题交流
+
+![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/bugstack-md.png?raw=true)
+
+<br/>
+<div align="center">
+    <a href="https://github.com/fuzhengwei/CodeGuide/wiki">关注小傅哥，你可以学到的更多！</a>
+</div>
+<br/>  
 
 - **加群交流**
 
-    本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：加群。
+    本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：`Spring学习加群`。
     
     <img src="https://itedus.cn/_media/fustack.png?x-oss-process=style/may" width="180" height="180"/>
 
