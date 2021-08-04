@@ -5,9 +5,7 @@ import cn.bugstack.springframework.beans.factory.ConfigurableListableBeanFactory
 import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
 import cn.bugstack.springframework.beans.factory.config.ConfigurableBeanFactory;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -56,6 +54,22 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
     @Override
     public void preInstantiateSingletons() throws BeansException {
         beanDefinitionMap.keySet().forEach(this::getBean);
+    }
+
+    @Override
+    public <T> T getBean(Class<T> requiredType) throws BeansException {
+        List<String> beanNames = new ArrayList<>();
+        for (Map.Entry<String, BeanDefinition> entry : beanDefinitionMap.entrySet()) {
+            Class beanClass = entry.getValue().getBeanClass();
+            if (requiredType.isAssignableFrom(beanClass)) {
+                beanNames.add(entry.getKey());
+            }
+        }
+        if (1 == beanNames.size()) {
+            return getBean(beanNames.get(0), requiredType);
+        }
+
+        throw new BeansException(requiredType + "expected single bean but found " + beanNames.size() + ": " + beanNames);
     }
 
 }

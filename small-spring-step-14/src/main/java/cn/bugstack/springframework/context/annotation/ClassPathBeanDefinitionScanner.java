@@ -1,5 +1,6 @@
 package cn.bugstack.springframework.context.annotation;
 
+import cn.bugstack.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor;
 import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
 import cn.bugstack.springframework.beans.factory.support.BeanDefinitionRegistry;
 import cn.bugstack.springframework.stereotype.Component;
@@ -36,6 +37,9 @@ public class ClassPathBeanDefinitionScanner extends ClassPathScanningCandidateCo
                 registry.registerBeanDefinition(determineBeanName(beanDefinition), beanDefinition);
             }
         }
+
+        // 注册处理注解的 BeanPostProcessor（@Autowired、@Value）
+        registry.registerBeanDefinition("cn.bugstack.springframework.context.annotation.internalAutowiredAnnotationProcessor", new BeanDefinition(AutowiredAnnotationBeanPostProcessor.class));
     }
 
     private String resolveBeanScope(BeanDefinition beanDefinition) {
