@@ -23,6 +23,7 @@
 hs_err_pid*
 
 *.md
+
 /.idea/
 /small-spring-step-01/small-spring-step-01.iml
 /small-spring-step-02/small-spring-step-02.iml
