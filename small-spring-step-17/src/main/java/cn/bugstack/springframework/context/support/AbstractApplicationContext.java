@@ -11,6 +11,7 @@ import cn.bugstack.springframework.context.event.ApplicationEventMulticaster;
 import cn.bugstack.springframework.context.event.ContextClosedEvent;
 import cn.bugstack.springframework.context.event.ContextRefreshedEvent;
 import cn.bugstack.springframework.context.event.SimpleApplicationEventMulticaster;
+import cn.bugstack.springframework.core.convert.ConversionService;
 import cn.bugstack.springframework.core.io.DefaultResourceLoader;
 
 import java.util.Collection;
@@ -57,12 +58,27 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader i
         // 7. 注册事件监听器
         registerListeners();
 
-        // 8. 提前实例化单例Bean对象
-        beanFactory.preInstantiateSingletons();
+        // 8. 设置类型转换器、提前实例化单例Bean对象
+        finishBeanFactoryInitialization(beanFactory);
 
         // 9. 发布容器刷新完成事件
         finishRefresh();
     }
+
+    // 设置类型转换器、提前实例化单例Bean对象
+    protected void finishBeanFactoryInitialization(ConfigurableListableBeanFactory beanFactory) {
+        // 设置类型转换器
+        if (beanFactory.containsBean("conversionService")) {
+            Object conversionService = beanFactory.getBean("conversionService");
+            if (conversionService instanceof ConversionService) {
+                beanFactory.setConversionService((ConversionService) conversionService);
+            }
+        }
+
+        // 提前实例化单例Bean对象
+        beanFactory.preInstantiateSingletons();
+    }
+
 
     protected abstract void refreshBeanFactory() throws BeansException;
 
@@ -132,6 +148,11 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader i
     @Override
     public <T> T getBean(Class<T> requiredType) throws BeansException {
         return getBeanFactory().getBean(requiredType);
+    }
+
+    @Override
+    public boolean containsBean(String name) {
+        return getBeanFactory().containsBean(name);
     }
 
     @Override

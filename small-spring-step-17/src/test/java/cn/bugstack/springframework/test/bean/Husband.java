@@ -1,19 +1,35 @@
 package cn.bugstack.springframework.test.bean;
 
+import java.util.Date;
+
 public class Husband {
 
-    private Wife wife;
+    private String wifiName;
 
-    public String queryWife(){
-        return "Husband.wife";
+    private Date marriageDate;
+
+    public String getWifiName() {
+        return wifiName;
     }
 
-    public Wife getWife() {
-        return wife;
+    public void setWifiName(String wifiName) {
+        this.wifiName = wifiName;
     }
 
-    public void setWife(Wife wife) {
-        this.wife = wife;
+    public Date getMarriageDate() {
+        return marriageDate;
+    }
+
+    public void setMarriageDate(Date marriageDate) {
+        this.marriageDate = marriageDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Husband{" +
+                "wifiName='" + wifiName + '\'' +
+                ", marriageDate=" + marriageDate +
+                '}';
     }
 
 }
