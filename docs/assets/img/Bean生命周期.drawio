@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T02:07:23.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="OvkSw-1lHSGwkays-h8_" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T02:08:40.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="wjgZ275zM5mWsj9leZlX" version="14.9.4" type="github">
   <diagram id="LKX4OvRe6VDWAZ0Fz87s" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -204,7 +204,10 @@
           <mxGeometry x="326" y="1539" width="194" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-80" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;shadow=0;labelBackgroundColor=none;sketch=1;fontColor=#000000;strokeColor=#333333;fillColor=#009999;gradientDirection=south;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1469" width="20" height="110" as="geometry" />
+          <mxGeometry x="530" y="1470" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-84" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 10.5pt&quot;&gt;注册虚拟机钩子&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 10.5pt&quot;&gt;Runtime.&lt;span style=&quot;font-style: italic&quot;&gt;getRuntime&lt;/span&gt;().addShutdownHook()&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1485" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
