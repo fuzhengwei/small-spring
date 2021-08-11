@@ -45,13 +45,12 @@
 
 4. 如果你在学习的过程中遇到什么问题，包括：不能运行、优化意见、文字错误等任何问题都可以提交issue，也可以联系作者：`小傅哥` 的微信，`fustack`
 
-5. 在专栏的内容编写中，每一个章节都提供了清晰的设计图稿和对应的类图，所以学习过程中一定不要只是在乎代码是怎么编写的，更重要的是理解这些设计的内容是如何来的。包括不限于如下案例：
+5. 在专栏的内容编写中，每一个章节都提供了清晰的设计图稿和对应的类图，所以学习过程中一定不要只是在乎代码是怎么编写的，更重要的是理解这些设计的内容是如何来的，在这个过程中不断的实现Bean生命周期的全部核心内容，如下图：
 
 
-    |   Spring 容器设计图稿   |
+    |   Spring Bean 的生命周期   |
     | ---- |
-    |   ![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/spring-3-01.png)   |
-    |   ![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/spring-3-02.png)   |
+    |   https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/Bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png?raw=true  |
 
 ## :pencil: 章节目录
 
