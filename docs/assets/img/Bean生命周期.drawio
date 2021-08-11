@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T01:15:02.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="pJ5qkNVPHiSwhMkMAkNc" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T01:26:44.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="D_NnvaF2IdvndWpTBkfD" version="14.9.4" type="github">
   <diagram id="LKX4OvRe6VDWAZ0Fz87s" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,11 +13,29 @@
         <mxCell id="oo5crSJGMGlpb1dWaUvM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-2" target="oo5crSJGMGlpb1dWaUvM-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oo5crSJGMGlpb1dWaUvM-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#33001a&quot;&gt;开始&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillStyle=dots;sketch=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#33001a&quot;&gt;开始&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillStyle=dots;sketch=1;shadow=0;strokeColor=#CC0000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.216;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-5" target="oo5crSJGMGlpb1dWaUvM-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-5" value="&lt;b&gt;BeanDefinition&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-7" target="oo5crSJGMGlpb1dWaUvM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-7" value="&lt;b&gt;BeanFactoryPostProcessor update BeanDefinition&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-10" value="在所有的 BeanDefinition 加载完成后，实例化 Bean 对象之前，提供修改 BeanDefinition 属性的机制。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="358" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-11" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0)&quot;&gt;@Value&lt;/span&gt;(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;${token}&quot;&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="318" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-12" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420" y="328" width="300" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
