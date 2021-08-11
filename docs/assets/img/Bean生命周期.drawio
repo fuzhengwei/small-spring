@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T01:40:26.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="xbyHG2omfcgLaes3GD9T" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T01:42:12.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="HY52KXTDimybFcnse_4O" version="14.9.4" type="github">
   <diagram id="LKX4OvRe6VDWAZ0Fz87s" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="oo5crSJGMGlpb1dWaUvM-5" value="&lt;b&gt;BeanDefinition&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oo5crSJGMGlpb1dWaUvM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-7" target="oo5crSJGMGlpb1dWaUvM-12">
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-7" target="oo5crSJGMGlpb1dWaUvM-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-7" target="oo5crSJGMGlpb1dWaUvM-15">
@@ -39,10 +39,10 @@
           <mxGeometry x="430" y="358" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-11" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0)&quot;&gt;@Value&lt;/span&gt;(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;${token}&quot;&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="430" y="318" width="160" height="60" as="geometry" />
+          <mxGeometry x="420" y="320" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-12" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="420" y="328" width="300" height="70" as="geometry" />
+          <mxGeometry x="420" y="360" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-20" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-15" target="oo5crSJGMGlpb1dWaUvM-19">
           <mxGeometry relative="1" as="geometry" />
@@ -59,14 +59,29 @@
         <mxCell id="oo5crSJGMGlpb1dWaUvM-23" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-21" target="oo5crSJGMGlpb1dWaUvM-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-27" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-21" target="oo5crSJGMGlpb1dWaUvM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-21" value="&lt;b&gt;InstantiationAwareBeanPostProcessor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="40" y="600" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-22" value="postProcessAfterInstantiation" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="410" y="600" width="180" height="40" as="geometry" />
+          <mxGeometry x="410" y="600" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oo5crSJGMGlpb1dWaUvM-25" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之后，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=0;fontColor=#FF3399;" vertex="1" parent="1">
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-25" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之后，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="560" width="320" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-29" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-26" target="oo5crSJGMGlpb1dWaUvM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-26" value="&lt;b&gt;InstantiationAwareBeanPostProcessor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-28" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 10.5pt&quot;&gt;postProcessPropertyValues&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="410" y="680" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-30" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象实例化完成后，设置属性操作之前执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="640" width="390" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
