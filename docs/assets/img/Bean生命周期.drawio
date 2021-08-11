@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T01:58:16.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="IiyepKrmovEAq_orxhsZ" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T02:02:32.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="s_fI7ymn0f5FDYeeWYF3" version="14.9.4" type="github">
   <diagram id="LKX4OvRe6VDWAZ0Fz87s" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,19 +125,22 @@
         <mxCell id="oo5crSJGMGlpb1dWaUvM-58" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-48" target="oo5crSJGMGlpb1dWaUvM-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oo5crSJGMGlpb1dWaUvM-48" value="&lt;span style=&quot;text-align: left;&quot;&gt;BeanPostProcessor&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="126" y="1000" width="140" height="40" as="geometry" />
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-64" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-48" target="oo5crSJGMGlpb1dWaUvM-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-48" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;初始化方法&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1060" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-51" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-49" target="oo5crSJGMGlpb1dWaUvM-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-49" value="&lt;span style=&quot;text-align: left;&quot;&gt;BeanPostProcessor&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f0a30a;sketch=1;fillStyle=solid;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="126" y="1080" width="140" height="40" as="geometry" />
+          <mxGeometry x="126" y="1210" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-50" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;后置处理 | postProcessAfterInitialization&lt;/span&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="326" y="1080" width="334" height="40" as="geometry" />
+          <mxGeometry x="326" y="1210" width="334" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oo5crSJGMGlpb1dWaUvM-52" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;pre style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10.5pt&quot;&gt;ApplicationContextAware#setpplicationContext&lt;/pre&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" vertex="1" parent="1">
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-52" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;pre style=&quot;text-align: left ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ApplicationContextAware#setpplicationContext&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="326" y="970" width="334" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-54" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;宋体&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
@@ -147,7 +150,25 @@
           <mxGeometry x="333" y="877" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-56" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之后，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="333" y="1040" width="320" height="60" as="geometry" />
+          <mxGeometry x="333" y="1169" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-63" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-59" target="oo5crSJGMGlpb1dWaUvM-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-59" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;pre style=&quot;text-align: left ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-size: 10.5pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;InitializingBean&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="326" y="1060" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-65" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-62" target="oo5crSJGMGlpb1dWaUvM-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-62" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;pre style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;background-color: rgb(248 , 249 , 250) ; font-size: 10.5pt&quot;&gt;init-method&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="326" y="1129" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-66" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;shadow=0;labelBackgroundColor=none;sketch=1;fontColor=#000000;strokeColor=#333333;fillColor=#009999;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="476" y="1060" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-68" value="Bean 处理了属性填充后调用，初始化执行方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="496" y="1105" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
