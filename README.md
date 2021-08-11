@@ -50,7 +50,7 @@
 
     |   Spring Bean 的生命周期   |
     | ---- |
-    |   https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/Bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png?raw=true  |
+    |   ![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/Bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png?raw=true)  |
 
 ## :pencil: 章节目录
 
