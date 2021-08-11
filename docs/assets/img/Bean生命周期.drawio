@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T01:42:12.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="HY52KXTDimybFcnse_4O" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T01:43:19.192Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="yPD4GiWUvSGNGwNcMYry" version="14.9.4" type="github">
   <diagram id="LKX4OvRe6VDWAZ0Fz87s" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,6 +82,9 @@
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-30" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象实例化完成后，设置属性操作之前执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="640" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-32" value="&lt;b&gt;Bean 实例化&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="530" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
