@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T02:11:17.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="SGoHNgQFW127flwaw_nM" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T02:33:31.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="DmciKFpfHDM5C8sJ-Tz3" version="14.9.4" type="github">
   <diagram id="LKX4OvRe6VDWAZ0Fz87s" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,11 +186,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oo5crSJGMGlpb1dWaUvM-88" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;elbow=vertical;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-71" target="oo5crSJGMGlpb1dWaUvM-86">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="110" y="1508" />
-            </Array>
+        <object label="" 原型模式="" id="oo5crSJGMGlpb1dWaUvM-88">
+          <mxCell style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;elbow=vertical;" edge="1" parent="1" source="oo5crSJGMGlpb1dWaUvM-71" target="oo5crSJGMGlpb1dWaUvM-86">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="110" y="1508" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="oo5crSJGMGlpb1dWaUvM-89" value="原型模式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="oo5crSJGMGlpb1dWaUvM-88">
+          <mxGeometry x="0.0973" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oo5crSJGMGlpb1dWaUvM-71" value="Scope" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=solid;sketch=1;shadow=0;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
