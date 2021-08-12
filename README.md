@@ -108,6 +108,11 @@ PDF 下载：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https:/
 </div>
 <br/>  
 
+- **问题反馈**：
+  1. [图3-2问题](https://github.com/fuzhengwei/small-spring/issues/9) 
+  2. [可以增加一些循环依赖处理吗? ](https://github.com/fuzhengwei/small-spring/issues/6)
+  3. [通过一次读者反馈，引出对 AspectJ 的介绍](https://github.com/fuzhengwei/small-spring/issues/4)
+
 - **加群交流**
 
     本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：`Spring学习加群`。
