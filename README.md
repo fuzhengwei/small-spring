@@ -55,7 +55,7 @@
 
 ## 📚 PDF 下载
 
-![]()
+![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/spring-0-04.png?raw=true)
 
 PDF 下载：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 
