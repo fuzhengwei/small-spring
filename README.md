@@ -27,6 +27,7 @@
 - [我的书籍](https://github.com/fuzhengwei/small-spring#books-%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D)
 - [问题交流](https://github.com/fuzhengwei/small-spring#paw_prints-%E9%97%AE%E9%A2%98%E4%BA%A4%E6%B5%81)
 - [参考资料](https://github.com/fuzhengwei/small-spring#tulip-%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99)
+- [学习打卡](https://github.com/fuzhengwei/small-spring/issues) - 👣留下你学习的足迹，进度、问题、想法、意见等等，提交[`issue`](https://github.com/fuzhengwei/small-spring/issues/new)同好交流、共同进步
 
 ## :bookmark: 学习说明
 
