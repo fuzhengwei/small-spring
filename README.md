@@ -18,6 +18,23 @@
 <a href="https://bugstack.cn/assets/images/qrcode.png?x-oss-process=style/may"><img src="https://itedus.cn/_media/wxbugstack.svg"></a>
 </div>
 
+
+<br/>
+<div align="center">
+    <table>
+        <tr>
+            <td align=“center">添加微信：fustack</td>
+            <td align=“center">关注公众号：bugstack虫洞栈</td>
+        </tr>
+        <tr>
+            <td align=“center"><img src="https://itedus.cn/_media/fustack.png?x-oss-process=style/may" width="128px"></td>
+            <td align=“center"><img src="https://itedus.cn/_media/qrcode.png?x-oss-process=style/may" width="128px"></td>
+        </tr>
+    </table>
+</div>
+<br/>  
+
+
 ## ⛳ **目录**
 
 - 代码仓库：[Github](https://github.com/fuzhengwei/small-spring) | [Gitee](https://gitee.com/fustack/small-spring) | [CodeChina](https://codechina.csdn.net/Yao__Shun__Yu/small-spring)  
