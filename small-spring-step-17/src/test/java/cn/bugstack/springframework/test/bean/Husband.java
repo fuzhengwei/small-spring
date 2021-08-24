@@ -1,12 +1,12 @@
 package cn.bugstack.springframework.test.bean;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Husband {
 
     private String wifiName;
 
-    private Date marriageDate;
+    private LocalDate marriageDate;
 
     public String getWifiName() {
         return wifiName;
@@ -16,11 +16,11 @@ public class Husband {
         this.wifiName = wifiName;
     }
 
-    public Date getMarriageDate() {
+    public LocalDate getMarriageDate() {
         return marriageDate;
     }
 
-    public void setMarriageDate(Date marriageDate) {
+    public void setMarriageDate(LocalDate marriageDate) {
         this.marriageDate = marriageDate;
     }
 
