@@ -5,6 +5,7 @@ package cn.bugstack.springframework.beans.factory.config;
  * 公众号：bugstack虫洞栈
  * Create by 小傅哥(fustack)
  */
+@SuppressWarnings({"rawtypes"})
 public class BeanDefinition {
 
     private Class beanClass;

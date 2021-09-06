@@ -1,6 +1,5 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.beans.factory.BeanFactory;
 import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
 import cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory;
 import cn.bugstack.springframework.test.bean.UserService;
@@ -28,7 +27,7 @@ public class ApiTest {
         userService.queryUserInfo();
 
         // 4.第二次获取 bean from Singleton
-        UserService userService_singleton = (UserService) beanFactory.getBean("userService");
+        UserService userService_singleton = (UserService) beanFactory.getSingleton("userService");
         userService_singleton.queryUserInfo();
     }
 

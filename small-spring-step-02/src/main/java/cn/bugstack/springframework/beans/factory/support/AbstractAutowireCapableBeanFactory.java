@@ -12,7 +12,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 
     @Override
     protected Object createBean(String beanName, BeanDefinition beanDefinition) throws BeansException {
-        Object bean = null;
+        Object bean;
         try {
             bean = beanDefinition.getBeanClass().newInstance();
         } catch (InstantiationException | IllegalAccessException e) {
