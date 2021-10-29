@@ -7,17 +7,17 @@
 
 <br/>
 <div align="center">
-    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/icon.svg" width="128px"></a>
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/images/system/CodeGuide-LOGO.png?raw=true" width="256px"></a>
 </div>
-<br/>  
+<br/>
 
 <div align="center">
-<a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/stars/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
-<a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/forks/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
-<a href="https://bugstack.cn" target="_blank"><img src="https://bugstack.cn/assets/images/onlinebook.svg"></a>
-<a href="https://bugstack.cn/assets/images/qrcode.png?x-oss-process=style/may"><img src="https://itedus.cn/_media/wxbugstack.svg"></a>
+	<a href="https://bugstack.cn/md/other/guide-to-reading.html"><img src="https://bugstack.cn/images/system/CodeGuide-Read.svg"></a>
+	<a href="https://bugstack.cn/images/personal/qrcode.png"><img src="https://bugstack.cn/images/system/CodeGuide-WeiXinCode.svg"></a>
+	<a href="https://bugstack.cn/md/knowledge/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html"><img src="https://bugstack.cn/images/system/CodeGuide-JavaPDF.svg"></a>
+	<a href="https://mp.weixin.qq.com/s/VthCUlT8oAJqKOoq5_NzSQ"><img src="https://bugstack.cn/images/system/CodeGuide-Lottery.svg"></a>
+	<a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/stars/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
 </div>
-
 
 <br/>
 <div align="center">
@@ -33,7 +33,19 @@
     </table>
 </div>
 <br/>  
-
+     
+<div align="center">
+    <p align="center"><b>知识星球</b>：<a href="https://t.zsxq.com/jAi2nUf">码农会锁 👇</a></p>
+   <table>
+  		<tbody>
+            <tr>
+               <td align="center" valign="middle">
+                <a href="https://t.zsxq.com/jAi2nUf"><img src="https://bugstack.cn/images/system/CodeGuide-xingqiu-2.png"></a>
+              </td>       
+            </tr>
+  		</tbody>
+	</table>
+</div>
 
 ## ⛳ **目录**
 
