@@ -134,7 +134,7 @@ PDF 下载：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https:/
 
 <br/>
 <div align="center">
-    <a href="https://github.com/fuzhengwei/CodeGuide/wiki">关注小傅哥，你可以学到的更多！</a>
+    <a href="https://github.com/fuzhengwei/CodeGuide">关注小傅哥，你可以学到的更多！</a>
 </div>
 <br/>  
 
