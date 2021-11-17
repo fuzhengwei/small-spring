@@ -27,8 +27,8 @@
             <td align=“center">关注公众号：bugstack虫洞栈</td>
         </tr>
         <tr>
-            <td align=“center"><img src="https://itedus.cn/_media/fustack.png?x-oss-process=style/may" width="128px"></td>
-            <td align=“center"><img src="https://itedus.cn/_media/qrcode.png?x-oss-process=style/may" width="128px"></td>
+            <td align=“center"><img src="https://bugstack.cn/images/personal/fustack.png" width="128px"></td>
+            <td align=“center"><img src="https://bugstack.cn/images/personal/qrcode.png" width="128px"></td>
         </tr>
     </table>
 </div>
@@ -147,13 +147,13 @@ PDF 下载：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https:/
 
     本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：`Spring学习加群`。
     
-    <img src="https://itedus.cn/_media/fustack.png?x-oss-process=style/may" width="180" height="180"/>
+    <img src="https://bugstack.cn/images/personal/fustack.png" width="180" height="180"/>
 
 - **公众号(bugstack虫洞栈)**
 
     沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例、源码分析等。
     
-    <img src="https://itedus.cn/_media/qrcode.png?x-oss-process=style/may" width="180" height="180"/>
+    <img src="https://bugstack.cn/images/personal/qrcode.png" width="180" height="180"/>
 
 ## :tulip: 参考资料
 
