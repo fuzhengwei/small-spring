@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.7" level="project" />
+    <orderEntry type="library" name="Maven: cglib:cglib:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:7.1" level="project" />
+    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.openjdk.jol:jol-cli:0.14" level="project" />
+    <orderEntry type="library" name="Maven: org.openjdk.jol:jol-core:0.14" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.jopt-simple:jopt-simple:4.6" level="project" />
+    <orderEntry type="library" name="Maven: org.dom4j:dom4j:2.1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.alibaba:druid:1.2.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: mysql:mysql-connector-java:8.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.protobuf:protobuf-java:2.6.0" level="project" />
+  </component>
+</module>
