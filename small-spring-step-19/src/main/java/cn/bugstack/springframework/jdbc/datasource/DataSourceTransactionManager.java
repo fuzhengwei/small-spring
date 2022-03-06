@@ -6,6 +6,7 @@ import cn.bugstack.springframework.tx.transaction.TransactionDefinition;
 import cn.bugstack.springframework.tx.transaction.TransactionException;
 import cn.bugstack.springframework.tx.transaction.support.AbstractPlatformTransactionManager;
 import cn.bugstack.springframework.tx.transaction.support.DefaultTransactionStatus;
+import cn.bugstack.springframework.tx.transaction.support.TransactionSynchronizationManager;
 import cn.hutool.core.lang.Assert;
 
 import javax.sql.DataSource;
@@ -48,11 +49,8 @@ public class DataSourceTransactionManager extends AbstractPlatformTransactionMan
     @Override
     protected Object doGetTransaction() throws TransactionException {
         DataSourceTransactionObject txObject = new DataSourceTransactionObject();
-        try {
-            txObject.setConnectionHolder(new ConnectionHolder(obtainDataSource().getConnection()), false);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        ConnectionHolder conHolder = (ConnectionHolder) TransactionSynchronizationManager.getResource(obtainDataSource());
+        txObject.setConnectionHolder(conHolder, false);
         return txObject;
     }
 
@@ -83,12 +81,16 @@ public class DataSourceTransactionManager extends AbstractPlatformTransactionMan
         DataSourceTransactionObject txObject = (DataSourceTransactionObject) transaction;
         Connection con = null;
         try {
+            Connection newCon = obtainDataSource().getConnection();
+            txObject.setConnectionHolder(new ConnectionHolder(newCon), true);
+
             con = txObject.getConnectionHolder().getConnection();
             if (con.getAutoCommit()) {
                 con.setAutoCommit(false);
             }
             prepareTransactionalConnection(con, definition);
 
+            TransactionSynchronizationManager.bindResource(obtainDataSource(), txObject.getConnectionHolder());
 
         } catch (SQLException e) {
             try {

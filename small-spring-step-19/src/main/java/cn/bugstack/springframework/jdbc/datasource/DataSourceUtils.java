@@ -2,6 +2,7 @@ package cn.bugstack.springframework.jdbc.datasource;
 
 
 import cn.bugstack.springframework.jdbc.CannotGetJdbcConnectionException;
+import cn.bugstack.springframework.tx.transaction.support.TransactionSynchronizationManager;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -22,10 +23,13 @@ public abstract class DataSourceUtils {
     }
 
     public static Connection doGetConnection(DataSource dataSource) throws SQLException {
-        Connection connection = fetchConnection(dataSource);
-        ConnectionHolder holderToUse = new ConnectionHolder(connection);
 
-        return connection;
+        ConnectionHolder conHolder = (ConnectionHolder) TransactionSynchronizationManager.getResource(dataSource);
+        if (null != conHolder && conHolder.hasConnection()) {
+            return conHolder.getConnection();
+        }
+
+        return fetchConnection(dataSource);
     }
 
     private static Connection fetchConnection(DataSource dataSource) throws SQLException {

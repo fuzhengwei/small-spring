@@ -11,12 +11,14 @@ import cn.bugstack.springframework.test.service.JdbcService;
 import cn.bugstack.springframework.test.service.impl.JdbcServiceImpl;
 import cn.bugstack.springframework.tx.transaction.annotation.AnnotationTransactionAttributeSource;
 import cn.bugstack.springframework.tx.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor;
+import cn.bugstack.springframework.tx.transaction.interceptor.TransactionAttribute;
 import cn.bugstack.springframework.tx.transaction.interceptor.TransactionInterceptor;
 import com.alibaba.druid.pool.DruidDataSource;
 import org.junit.Before;
 import org.junit.Test;
 
 import javax.sql.DataSource;
+import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Map;
 
@@ -38,6 +40,22 @@ public class ApiTest {
         dataSource = applicationContext.getBean(DruidDataSource.class);
 
 //        jdbcService = applicationContext.getBean(JdbcServiceImpl.class);
+    }
+
+    @Test
+    public void matchTransactionAnnotationTest() {
+        JdbcService jdbcService = new JdbcServiceImpl();
+        AnnotationTransactionAttributeSource transactionAttributeSource = new AnnotationTransactionAttributeSource();
+        Method[] methods = jdbcService.getClass().getMethods();
+        Method targetMethod = null;
+        for (Method method : methods) {
+            if (method.getName().equals("saveData")) {
+                targetMethod = method;
+                break;
+            }
+        }
+        TransactionAttribute transactionAttribute = transactionAttributeSource.getTransactionAttribute(targetMethod, jdbcService.getClass());
+        System.out.println(transactionAttribute.getName());
     }
 
     @Test
