@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	         http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="dataSource"
+          class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/zhangdd?useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="12345678"/>
+    </bean>
+
+
+    <bean id="jdbcTemplate"
+          class="cn.bugstack.springframework.jdbc.support.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="jdbcService" class="cn.bugstack.springframework.test.service.impl.JdbcServiceImpl"/>
+
+</beans>
