@@ -1,15 +1,10 @@
 package cn.bugstack.springframework.tx.transaction.support;
 
-import cn.bugstack.springframework.jdbc.CannotGetJdbcConnectionException;
 import cn.hutool.core.lang.Assert;
 import cn.hutool.core.thread.threadlocal.NamedThreadLocal;
 
-import javax.sql.DataSource;
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * @author zhangdd on 2022/3/6

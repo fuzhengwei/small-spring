@@ -115,7 +115,7 @@ public class DataSourceTransactionManager extends AbstractPlatformTransactionMan
     protected void prepareTransactionalConnection(Connection con, TransactionDefinition definition) throws SQLException {
         if (definition.isReadOnly()) {
             try (Statement stmt = con.createStatement()) {
-//                stmt.execute("set transaction read only");
+                stmt.execute("set transaction read only");
             }
         }
     }

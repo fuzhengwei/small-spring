@@ -68,9 +68,7 @@ public class ApiTest {
 
 
         DataSourceTransactionManager transactionManager = new DataSourceTransactionManager(dataSource);
-
         TransactionInterceptor interceptor = new TransactionInterceptor(transactionManager, transactionAttributeSource);
-
 
         BeanFactoryTransactionAttributeSourceAdvisor btas = new BeanFactoryTransactionAttributeSourceAdvisor();
         btas.setAdvice(interceptor);
