@@ -3,7 +3,7 @@ package cn.bugstack.springframework.core.convert.support;
 import cn.bugstack.springframework.core.convert.converter.Converter;
 import cn.bugstack.springframework.core.convert.converter.ConverterFactory;
 import cn.bugstack.springframework.util.NumberUtils;
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 /**
  * Converts from a String any JDK-standard Number implementation.
