@@ -3,7 +3,7 @@ package cn.bugstack.springframework.beans.factory.config;
 import cn.bugstack.springframework.beans.factory.HierarchicalBeanFactory;
 import cn.bugstack.springframework.core.convert.ConversionService;
 import cn.bugstack.springframework.util.StringValueResolver;
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 /**
  * Configuration interface to be implemented by most bean factories. Provides
