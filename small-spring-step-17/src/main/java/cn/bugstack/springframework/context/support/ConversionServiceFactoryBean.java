@@ -9,7 +9,7 @@ import cn.bugstack.springframework.core.convert.converter.ConverterRegistry;
 import cn.bugstack.springframework.core.convert.converter.GenericConverter;
 import cn.bugstack.springframework.core.convert.support.DefaultConversionService;
 import cn.bugstack.springframework.core.convert.support.GenericConversionService;
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.Set;
 
