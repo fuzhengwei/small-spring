@@ -5,6 +5,9 @@ package cn.bugstack.springframework.beans;
  * 公众号：bugstack虫洞栈
  * Create by 小傅哥(fustack)
  *
+ * 来自于对开源项目的学习；
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
+ *
  * 定义 Bean 异常
  */
 public class BeansException extends RuntimeException {
