@@ -42,5 +42,4 @@ public class ApiTest {
         System.out.println("测试结果：" + stringToLongConverter.convert("1234"));
     }
 
-
 }
