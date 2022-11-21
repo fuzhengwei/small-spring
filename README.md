@@ -33,7 +33,7 @@
     <table>
         <tr>
             <td align=“center">添加微信：fustack</td>
-            <td align=“center">关注公众号：bugstack虫洞栈</td>
+            <td align=“center">关注 </td>
         </tr>
         <tr>
             <td align=“center"><img src="https://bugstack.cn/images/personal/fustack.png" width="128px"></td>
@@ -116,9 +116,6 @@ PDF 下载：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https:/
 - [x] [`难度【★★★★★】第 13 章：行云流水，把AOP动态代理，融入到Bean的生命周期`](https://mp.weixin.qq.com/s/BFYJLNzVO8NxjmeCUzmLyg)
 - [x] [`难度【★★★☆☆】第 14 章：笑傲江湖，通过注解配置和包自动扫描的方式完成Bean对象的注册`](https://mp.weixin.qq.com/s/1BWMc9sYUB9-uz2w7TZWmw)
 - [x] [`难度【★★★☆☆】第 15 章：万人之敌，通过注解给属性注入配置和Bean对象`](https://mp.weixin.qq.com/s/GNLA10AimmxUSZ0VoDI_xA)
-- [x] [`难度【★★★☆☆】【PDF专属】第 16 章：战无不胜，给代理对象的属性设置值`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
-- [x] [`难度【★★★★★】【PDF专属】第 17 章：攻无不克，通过三级缓存解决循环依赖`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
-- [x] [`难度【★★★★☆】【PDF专属】第 18 章：挂印封刀，数据类型转换工厂设计实现`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 
 ## :books: 我的书籍
 
