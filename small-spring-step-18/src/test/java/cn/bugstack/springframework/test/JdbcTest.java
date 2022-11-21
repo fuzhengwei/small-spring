@@ -21,7 +21,6 @@ public class JdbcTest {
      * UNIQUE KEY `user_id_uindex` (`id`)
      * ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
      */
-
     private DruidDataSource dataSource;
     private Connection connection;
     private Statement statement;
