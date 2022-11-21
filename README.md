@@ -2,6 +2,15 @@
 
 ![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/HeadDiagram.png?raw=true)
 
+本书来自于对开源项目 [DerekYRC/mini-spring](https://github.com/DerekYRC/mini-spring)、[code4craft/tiny-spring](https://github.com/code4craft/tiny-spring) 的源码；学习、扩展、补充，并编写文章总结经验，分享给广大读者，一起学习 Spring 源码。非常感谢开源项目贡献者，读者也可以一起学习，不同视角下的学习经验。
+
+**开源项目及优秀书籍**；
+
+- [DerekYRC/mini-spring](https://github.com/DerekYRC/mini-spring)
+- [code4craft/tiny-spring](https://github.com/code4craft/tiny-spring)
+- [《Spring源码深度解析》](https://item.jd.com/12506664.html)
+- [《精通Spring 4.x —— 企业应用开发实战》](https://item.jd.com/10062905219396.html)
+
 >小傅哥，一线互联网 Java 工程师、架构师，开发过交易、营销类项目，实现过运营、活动类项目，设计过中间件，组织过系统重构，编写过技术专利。不仅从事业务系统的开发工作，也经常做一些字节码插桩类的设计和实现，对架构的设计和落地有丰富的经验。在热衷于Java语言的同时，也喜欢研究中继器、I/O板卡、C#和PHP，是一个技术活跃的折腾者。
 >[:pencil2: 虫洞 · 科技栈，博主](https://bugstack.cn)，[:blue_book: 《重学Java设计模式》图书作者](https://item.jd.com/13218336.html)
 
