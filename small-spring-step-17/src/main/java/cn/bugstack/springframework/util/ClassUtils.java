@@ -36,4 +36,13 @@ public class ClassUtils {
         return (className != null && className.contains("$$"));
     }
 
+    /**
+     * 获取实际的class
+     *
+     * @param clazz the class
+     */
+    public static Class<?> getActualClass(Class<?> clazz) {
+        return isCglibProxyClass(clazz) ? clazz.getSuperclass() : clazz;
+    }
+
 }
