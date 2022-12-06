@@ -1,6 +1,7 @@
 package cn.bugstack.springframework.core.convert;
 
-import com.sun.istack.internal.Nullable;
+
+import org.jetbrains.annotations.Nullable;
 
 /**
  * A service interface for type conversion. This is the entry point into the convert system.

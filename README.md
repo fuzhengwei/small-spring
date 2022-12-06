@@ -58,7 +58,6 @@
 
 ## ⛳ **目录**
 
-- 代码仓库：[Github](https://github.com/fuzhengwei/small-spring) | [Gitee](https://gitee.com/fustack/small-spring) | [CodeChina](https://codechina.csdn.net/Yao__Shun__Yu/small-spring)  
 - [学习说明 🍁`(学习套路&源码使用)`](https://github.com/fuzhengwei/small-spring#bookmark-%E5%AD%A6%E4%B9%A0%E8%AF%B4%E6%98%8E)
 - [下电子书](https://github.com/fuzhengwei/small-spring#-pdf-%E4%B8%8B%E8%BD%BD) 📚[《手撸 Spring》 - `新增专属3个章节，代理类属性填充、循环依赖、类型转换`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 - [购买图书 🌹`(新增4章jdbc、事务、orm、整合，全书彩印)`](https://u.jd.com/4LapTH4)
