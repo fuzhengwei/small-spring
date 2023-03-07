@@ -60,12 +60,6 @@
             <artifactId>hutool-all</artifactId>
             <version>5.5.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-cli -->
-        <dependency>
-            <groupId>org.openjdk.jol</groupId>
-            <artifactId>jol-cli</artifactId>
-            <version>0.14</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
         <dependency>
             <groupId>org.dom4j</groupId>
