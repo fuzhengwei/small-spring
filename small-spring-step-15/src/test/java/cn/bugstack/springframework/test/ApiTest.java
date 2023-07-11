@@ -2,6 +2,7 @@ package cn.bugstack.springframework.test;
 
 import cn.bugstack.springframework.context.support.ClassPathXmlApplicationContext;
 import cn.bugstack.springframework.test.bean.IUserService;
+import org.junit.Test;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
