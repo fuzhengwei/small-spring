@@ -59,8 +59,6 @@
 ## ⛳ **目录**
 
 - [学习说明 🍁`(学习套路&源码使用)`](https://github.com/fuzhengwei/small-spring#bookmark-%E5%AD%A6%E4%B9%A0%E8%AF%B4%E6%98%8E)
-- [下电子书](https://github.com/fuzhengwei/small-spring#-pdf-%E4%B8%8B%E8%BD%BD) 📚[《手撸 Spring》 - `新增专属3个章节，代理类属性填充、循环依赖、类型转换`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
-- [购买图书 🌹`(新增4章jdbc、事务、orm、整合，全书彩印)`](https://u.jd.com/4LapTH4)
 - [章节目录](https://github.com/fuzhengwei/small-spring#pencil-%E7%AB%A0%E8%8A%82%E7%9B%AE%E5%BD%95)
 - [我的书籍](https://github.com/fuzhengwei/small-spring#books-%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D)
 - [问题交流](https://github.com/fuzhengwei/small-spring#paw_prints-%E9%97%AE%E9%A2%98%E4%BA%A4%E6%B5%81)
@@ -91,12 +89,6 @@
     |   Spring Bean 的生命周期   |
     | ---- |
     |   ![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/Bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png?raw=true)  |
-
-## 📚 PDF 下载
-
-![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/spring-0-04.png?raw=true)
-
-PDF 下载：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 
 ## :pencil: 章节目录
 
